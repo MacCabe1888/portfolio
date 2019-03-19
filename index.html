@@ -1,59 +1,608 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>About | Cameron MacCabe</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<!--
+		Basic
+	-->
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cameron MacCabe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	
+	<!--
+		Load Fonts
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	
+	<!--
+		Load CSS
+	-->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/blogs.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/gradient.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	
+	<!--
+		Template Colors
+	-->
+	<link rel="stylesheet" href="css/template-colors/green.css" />
+	<!--<link rel="stylesheet" href="css/template-colors/blue.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/orange.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/purple.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/red.css" />-->
+	
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!--
+		Favicons
+	-->
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	
 </head>
 
 <body>
+	<div class="page">
+		
+		<!-- preloader -->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-  <div class="wrapper">
+		<!-- background -->
+		<div class="background gradient">
+			<ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+		</div>
 
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">Cameron MacCabe</a>
-        <nav>
-          <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+		<!--
+			Container
+		-->
+		<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
 
-    <main class="container">
-      
-      <section class="main-section">
-        
-        <h1>About Me</h1>
+			<!--
+				Header
+			-->
+			<header class="header">
 
-        <img src="assets/images/profile-picture.jpg" class="auth-image" alt="Profile Picture">
+				<!-- menu -->
+				<div class="top-menu">
+					<ul>
+						<li class="active">
+							<a href="#about-card">
+								<span class="icon ion-person"></span>
+								<span class="link">About</span>
+							</a>
+						</li>
+						<li>
+							<a href="#resume-card">
+								<span class="icon ion-android-list"></span>
+								<span class="link">Key Points</span>
+							</a>
+						</li>
+						<li>
+							<a href="#works-card">
+								<span class="icon ion-ios-folder-outline"></span>
+								<span class="link">Portfolio</span>
+							</a>
+						</li>
+						<li>
+							<a href="#contacts-card">
+								<span class="icon ion-at"></span>
+								<span class="link">Contact</span>
+							</a>
+						</li>
+					</ul>
+				</div>
 
-        <p>I graduated magna cum laude from Columbia University in 2016 with a Bachelor of Arts degree in Philosophy and Music. Having completed my liberal education (to my current satisfaction, at any rate), I am now pursuing my technical education.</p>
-        
-        <p>My present ambition is to learn to code in three months ... with no prior experience whatsoever. Though it may be a long shot, my goal is to land an IT job by this summer.</p>
-        
-        <p>My current coding-related interests skew toward AI programming and video game development. But all of that could quite easily change as I quickly learn more concepts in UC Berkeley Extension's full-time, full-stack, full-night's-sleep-depriving web development boot camp.</p>
+			</header>
 
-      </section>
+			<!--
+				Card - Started
+			-->
+			<div class="card-started" id="home-card">
 
-    </main>
-    
-    <div class="push"></div>
-  
-  </div>
+				<!--
+					Profile
+				-->
+				<div class="profile">
 
-  <footer>
-    <div class="container">
-      Copyright&nbsp;&copy;&nbsp;2019&nbsp;Cameron MacCabe
-    </div>
-  </footer>
+					<!-- profile image -->
+					<div class="slide" style="background-image: url(images/bg.jpg);"></div>
 
+					<!-- profile photo -->
+					<div class="image">
+						<img src="images/profile-picture.jpg" alt="" />
+					</div>
+
+					<!-- profile titles -->
+					<div class="title">Cameron MacCabe</div>
+					<div class="subtitle">Musician, Educator, Web Developer</div>
+
+					<!-- profile socials -->
+					<div class="social">
+						<a target="_blank" href="https://www.linkedin.com/in/cameron-maccabe-5a47b917a/"><span class="fab fa-linkedin"></span></a>
+						<a target="_blank" href="https://github.com/MacCabe1888"><span class="fab fa-github"></span></a>
+						<a target="_blank" href="https://stackoverflow.com/users/11038175/maccabe1888?tab=profile"><span class="fab fa-stack-overflow"></span></a>
+						<a target="_blank" href="https://open.spotify.com/artist/5Sqg3TOFwQSONqU9ncSmZr"><span class="fab fa-spotify"></span></a>
+					</div>
+					
+					<!-- profile buttons -->
+					<div class="lnks">
+						<a href="2018 MacCabe Résumé.pdf" class="lnk" target="_blank">
+							<span class="text">Download Résumé</span>
+							<span class="ion ion-archive"></span>
+						</a>
+						<a href="#" class="lnk discover">
+							<span class="text">Contact Me</span>
+							<span class="arrow"></span>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- 
+				Card - About
+			-->
+			<div class="card-inner animated active" id="about-card">
+				<div class="card-wrap">
+
+					<!-- 
+						About 
+					-->
+					<div class="content about">
+
+						<!-- title -->
+						<div class="title">About Me</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="text-box">
+									<p>
+										I graduated magna cum laude from Columbia University in 2016 with a Bachelor of Arts degree in Philosophy and Music. Having completed my liberal education (to my current satisfaction, at any rate), I am now pursuing my technical education.
+									</p>
+									<p>
+										My latest ambition is to learn to code in three months . . . with no prior experience whatsoever. Though it may be a long shot, my goal is to land an IT job by this summer.
+									</p>
+									<p>
+										My current coding-related interests skew toward AI programming and video game development. But all of that could quite easily change as I quickly learn more concepts in UC Berkeley Extension's full-time, full-stack, full-night's-sleep-depriving web development boot camp.
+									</p>
+								</div>
+								<div class="info-list">
+									<ul>
+										<li style="width: 100%"><strong>Age :&nbsp;</strong> 24</li>
+										<li style="width: 100%"><strong>Location :&nbsp;</strong> San Francisco Bay Area, CA</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Services
+					-->
+					<div class="content services">
+
+						<!-- title -->
+						<div class="title">My Services</div>
+
+						<!-- content -->
+						<div class="row service-items border-line-v">
+
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon"><span class="ion ion-code"></span></div>
+									<div class="name">Web Development</div>
+								</div>
+							</div>
+
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon"><span class="ion ion-music-note"></span></div>
+									<div class="name">Music Composition</div>
+								</div>
+							</div>
+
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon"><span class="ion ion-star"></span></div>
+									<div class="name">Tutoring</div>
+								</div>
+							</div>
+
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon"><span class="ion ion-music-note"></span></div>
+									<div class="name">Music Performance</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Fun Fact
+					-->
+					<div class="content fuct">
+
+						<!-- title -->
+						<div class="title">Fun Facts</div>
+
+						<!-- content -->
+						<div class="row fuct-items">
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-social-nodejs"></span></div>
+									<div class="name">Currently Learning: Node.js</div>
+								</div>
+							</div>
+							
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-earth"></span></div>
+									<div class="name">5 Countries Visited</div>
+								</div>
+							</div>
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-ios-musical-note"></span></div>
+									<div class="name">11 Operas Attended</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--
+				Card - Resume
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="card-wrap">
+
+					<!--
+						Resume
+					-->
+					<div class="content resume">
+
+						<!-- title -->
+						<div class="title">Key Points</div>
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- experience -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="ion ion-briefcase"></i></div>
+									<div class="name">Experience</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h active">
+										<div class="date">2019 - Present</div>
+										<div class="name">Tutor</div>
+										<div class="company">Catalyst Prep</div>
+										<p>
+											Prepare high school students for the SAT and ACT.
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">2017 - Present</div>
+										<div class="name">Guitarist</div>
+										<div class="company">People Who Stare</div>
+										<p>
+											Play guitar and write songs for the Bay Area rock band People Who Stare.
+										</p>
+									</div>
+									<div class="resume-item">
+										<div class="date">2014 - 2015</div>
+										<div class="name">Leader</div>
+										<div class="company">Meade Anderson Undergraduate Philosophy Forum</div>
+										<p>
+											Composed discussion prompts, managed social media, and moderated meetings on a weekly basis.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- education -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="ion ion-university"></i></div>
+									<div class="name">Education</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h active">
+										<div class="date">2019 - Present</div>
+										<div class="name">UC Berkeley Extension</div>
+										<div class="company">Berkeley, CA</div>
+										<p>
+											Currently enrolled in a full stack web development course.
+										</p>
+									</div>
+									<div class="resume-item">
+										<div class="date">2012 - 2016</div>
+										<div class="name">Columbia University</div>
+										<div class="company">New York, NY</div>
+										<p>
+											Bachelor of Arts in Philosophy and Music.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--
+				Card - Works
+			-->
+			<div class="card-inner" id="works-card">
+				<div class="card-wrap">
+
+					<!--
+						Works
+					-->
+					<div class="content works">
+
+						<!-- title -->
+						<div class="title">Portfolio</div>
+
+						<!-- content -->
+						<div class="row grid-items border-line-v">
+
+							<!-- work item -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://maccabe1888.github.io/Train-Scheduler/" target="_blank">
+											<img src="images/works/Train-Scheduler.jpg" alt="Train Scheduler"/>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="https://github.com/MacCabe1888/Train-Scheduler" target="_blank">Train Scheduler</a>
+										<div class="category">Web App</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://maccabe1888.github.io/Moodie/" target="_blank">
+											<img src="images/works/Moodie.jpg" alt="Moodie"/>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="https://github.com/MacCabe1888/Moodie" target="_blank">Moodie</a>
+										<div class="category">Web App</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://maccabe1888.github.io/Word-Guess-Game/" target="_blank">
+											<img src="images/works/Word-Guess-Game.png" alt="Hitchcock's Rope: A Mystery Game"/>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="https://github.com/MacCabe1888/Word-Guess-Game" target="_blank">Hitchcock's Rope: A Mystery Game</a>
+										<div class="category">Game</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://maccabe1888.github.io/SpongeMeme-SquareGIFs/" target="_blank">
+											<img src="images/works/SpongeMeme-SquareGIFs.jpg" alt="SpongeMeme SquareGIFs"/>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="https://github.com/MacCabe1888/SpongeMeme-SquareGIFs" target="_blank">SpongeMeme SquareGIFs</a>
+										<div class="category">Web App</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://maccabe1888.github.io/Crystal-Collector-Game/" target="_blank">
+											<img src="images/works/Crystal-Collector-Game.jpg" alt="Crystal Collector"/>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="https://github.com/MacCabe1888/Crystal-Collector-Game" target="_blank">Crystal Collector</a>
+										<div class="category">Game</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://maccabe1888.github.io/Trivia-Game/" target="_blank">
+											<img src="images/works/Trivia-Game.png" alt="Mardi Gras Mania: A Trivia Game"/>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="https://github.com/MacCabe1888/Trivia-Game" target="_blank">Mardi Gras Mania: A Trivia Game</a>
+										<div class="category">Game</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--
+				Card - Contacts
+			-->
+			<div class="card-inner contacts" id="contacts-card">
+				<div class="card-wrap">
+
+					<!--
+						Conacts Info
+					-->
+					<div class="content contacts">
+
+						<!-- title -->
+						<div class="title">Get in Touch</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="info-list">
+									<ul>
+										<li style="width: 100%"><strong>Email :&nbsp;</strong> cameronjmaccabe@gmail.com</li>
+										<li style="width: 100%"><strong>Phone :&nbsp;</strong> 925 899 5574</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Contact Form
+					-->
+					<div class="content contacts">
+
+						<!-- title -->
+						<div class="title">Contact Form</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="contact_form">
+									<form id="cform" method="post">
+										<div class="row">
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="name" placeholder="Full Name" />
+												</div>
+											</div>
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="email" placeholder="Email Address" />
+												</div>
+											</div>
+											<div class="col col-d-12 col-t-12 col-m-12">
+												<div class="group-val">
+													<textarea name="message" placeholder="Your Message"></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="align-left">
+											<a href="#" class="button" onclick="$('#cform').submit(); return false;">
+												<span class="text">Send Message</span>
+												<span class="arrow"></span>
+											</a>
+										</div>
+									</form>
+									<div class="alert-success">
+										<p>Thanks, your message is sent successfully.</p>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<!--
+		jQuery Scripts
+	-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/masonry.pkgd.js"></script>
+	<script src="js/masonry-filter.js"></script>
+	<script src="js/jquery.slimscroll.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	
+	<!--
+		Google map api
+	-->
+	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	
+	<!--
+		Main Scripts
+	-->
+	<script src="js/scripts.js"></script>
+	
 </body>
-
 </html>
